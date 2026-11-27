@@ -1,0 +1,23 @@
+{
+  "capacity": 2,
+  "ticketSlots": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "saturatedSlot": 0,
+  "remove": 1,
+  "expected": [
+    "pre-removal lower bound is two",
+    "post-removal count is not unique"
+  ]
+}
